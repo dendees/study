@@ -35,7 +35,11 @@ grid有两种属性，一种是定义在容器上，成为容器属性。另一�
 3. grid-template-rows: repeat(3, 33.33%),grid-template-rows: repeat(3, 33.33% 10% 15%)
 4. grid-template-columns: repeat(auto-fill, 100px) 自动填充满
 5. grid-template-columns: 150px 1fr 2fr fr（friction的缩写）表示比例关系
+6. grid-auto-flow: row， 填充方式，不定义默认为row， row dense
+7. justify-items/align-items: start|end|center|stretch, 项目元素内部对齐格式，默认为stretch。 place-items：<align-items> <justify-items>
+8. justify-content/align-content: start | end | center | stretch | space-around（所有margin都一致） | space-between(两端对齐，内容距离一致居中) | space-evenly（所有距离都一致）;项目元素的对齐方式
+9. grid-auto-rows:100px 没有定义到行的行高
 
+## 项目属性
 
-
-
+1. 项目对应的四根网格线，分别是 grid-column-start(左边竖条)/grid-column-end(右边竖条)/grid-row-start(上边横条)/grid-row-end（下边横条）,grid-column-start:2,grid-column-start:4
